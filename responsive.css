@@ -72,25 +72,13 @@
 
   .about-section .container {
    
-    /* flex-direction: column; */
-    background-color: blue;
-    width: 100%;
+    flex-direction: column;
+    padding: 12px !important;
   }
 
-  .colum{
-    width: 100%;
-    background-color: red;
-
+  .about-section .about-details{
+    margin-top: 12px;
   }
-  .colum .image-box{
-    width: 100%;
-  }
-  
-  .about-section .image-box img {
-    max-width: 100%;
-  }
-  
- 
   
   .about-section .about-details p {
     margin-top: 25px;

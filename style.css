@@ -137,9 +137,6 @@
       margin-bottom: 50px;
   }
 
-  .colum{
-    width: 50%;
-  }
 
   
   .about-section .container {
@@ -149,9 +146,11 @@
     width: 100%;
   }
   
-  .about-section .image-box img {
+  /* .about-section .image-box img {
     max-width: 100%;
-  }
+  } */
+
+ 
   
   .about-section .about-details h2 span {
     color: #e62881f5;
