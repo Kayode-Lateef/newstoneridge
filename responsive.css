@@ -68,45 +68,89 @@
   
   /* CSS */
 
+
+  .hero-content .hero-content-details a {
   
+    margin-top: 80px !important;
+   
+  }
 
   .about-section .container {
-   
     flex-direction: column;
     padding: 12px !important;
+  }
+
+  
+  .about-section .image-box img {
+    max-width: 100%;
   }
 
   .about-section .about-details{
     margin-top: 12px;
   }
   
-  .about-section .about-details p {
-    margin-top: 25px;
-    color: #999;
-  }
-  
-  .about-section .about-details a {
-    display: inline-block;
-    background-color: #e62881f5;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 20px;
-    border-radius: 30px;
-    color: #fff;
-  }
-  
-
 
   .subscribe-section .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
+
+    padding: 12px !important;
+  }
+
+  .subscribe-section .image-box img {
+    max-width: 100%;
+  }
+
+  .subscribe-section .subscribe-details{
+    margin-bottom: 24px;
+  }
+
+  .subscribe-section .subscribe-details form button {
+    display: block;
+    width: 100%;
+   
   }
 
 
+  .lab-section .container {
+    padding: 12px !important;
+  }
+
+  
+  .lab-section .lab-container-details{
+    width: 100%;
+    padding: 12px;
+
+  }
+
+  .lab-section .box .image-box {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100% !important;
+  }
+
+
+  .testimonials-details {
+    width: 100%;
+    /* padding: 12px; */
+  }
+
+  .contact-section {
+    padding: 12px !important;
+
+  }
 
   .contact-section .contact-row {
    flex-direction: column;
   }
 
+  .contact-section .contact-row .form-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact-section .contact-row .map-container{
+  margin-top: 80px !important;
+}
 
 
   .info-section .info-box {

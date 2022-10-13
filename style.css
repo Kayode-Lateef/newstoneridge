@@ -143,14 +143,19 @@
     display: flex;
     align-items: center;
     padding: 0 85px;
+  }
+
+  .about-section .image-box{
     width: 100%;
   }
   
-  /* .about-section .image-box img {
+  .about-section .image-box img {
     max-width: 100%;
-  } */
+  }
 
- 
+  .about-section .about-details{
+    width: 100%;
+  }
   
   .about-section .about-details h2 span {
     color: #e62881f5;
@@ -182,6 +187,10 @@
     align-items: center;
     padding: 0 85px;
   }
+
+  .subscribe-section .image-box {
+    width: 100%;
+  }
   
   .subscribe-section .image-box img {
     max-width: 100%;
@@ -189,6 +198,8 @@
   
   .subscribe-section .subscribe-details {
     color: white;
+    width: 100%;
+
   }
   
   .subscribe-section .subscribe-details h2 {
@@ -229,7 +240,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
     padding: 0 85px;
   }
   
@@ -439,13 +449,13 @@
   .contact-section .contact-row {
     display: flex;
     align-items: center;
-    /* background-color: yellow; */
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   
   .contact-section .contact-row .form-container {
-    width: 90%;
+    width: 100%;
+    margin-right: 26px;
   }
   .contact-section .contact-row .form-container input.input-item {
     width: 100%;
@@ -476,7 +486,7 @@
     border-radius: 12px;
   }
   .contact-section .contact-row .map-container {
-    width: 90%;
+    width: 100%;
     text-align: center;
     height: 285px;
     border-radius: 20px;
