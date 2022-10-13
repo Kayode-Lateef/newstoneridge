@@ -129,6 +129,23 @@
   }
 
 
+  .course-section .container {
+    padding: 12px !important;
+
+  }
+  .course-section .course-container-details{
+    width: 100%;
+    padding: 12px;
+  }
+
+  .course-section .box .image-box {
+    border-radius: 550px;
+    overflow: hidden;
+    width: 100% !important;
+
+  }
+
+
   .testimonials-details {
     width: 100%;
     /* padding: 12px; */
