@@ -86,8 +86,12 @@
     font-size: 10px;
   }
   
-  .navbar-items-container .navbar-items .nav-item.active .nav-link {
-    color: #e62881f5;
+  /* .navbar-items-container .navbar-items .nav-item.active .nav-link {
+    color: #e62881f5 ;
+  } */
+
+.nav-item .active {
+    color: #e62881f5 !important;
   }
   
   .quote-container {
@@ -98,7 +102,9 @@
   .quote-container .login {
     color: white;
     margin-right: 25px;
-    font-size: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
   }
   
   /* Hero Content */

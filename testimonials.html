@@ -14,14 +14,16 @@
     src="https://kit.fontawesome.com/3fc7bf502c.js"
     crossorigin="anonymous"
   ></script>
-    
+   
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 </head>
 <body>
     <div class="page-content">
 
     <div class="hero">
         <!-- Header section start -->
-        <header class="header-container">
+        <!-- <header class="header-container">
           <div class="nav-container">
             <nav class="navbar">
               <a class="logo" href="index.html">Stoneridge</a>
@@ -60,9 +62,60 @@
               </div>
             </nav>
           </div>
-        </header>
+        </header> -->
         <!-- end of header-section -->
   
+         <!-- BOOTSTRAP NAVS -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid d-flex">
+
+          <a class="logo navbar-brand flex-grow-1" href="index.html">Stoneridge</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="courses.html">COURSES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  active" aria-current="page" href="testimonials.html">TESTIMONIALS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="contact.html">CONTACT</a>
+              </li>
+             
+            </ul>
+
+            <div class="quote-container">
+            <a class="login">
+              Login
+              <span><i class="fa-regular fa-user"></i></span>
+            </a>
+
+            <form class="d-flex" role="search">
+                <button class="btn btn-outline-light" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>             
+            </form>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- BOOTSTRAP NAVS ENDS-->
         
       </div>
        <!-- About section -->
@@ -157,5 +210,8 @@
         </div>
     </footer>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>
